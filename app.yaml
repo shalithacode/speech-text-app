@@ -1,0 +1,13 @@
+runtime: python27
+threadsafe: true
+api_version: 1
+
+handlers:
+  # Matches requests to /images/... to files in static/images/...
+
+  - url: /.*
+    script: main.app
+#  login: required
+libraries:
+  - name: ssl
+    version: latest
