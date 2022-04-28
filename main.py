@@ -2,7 +2,6 @@ from flask import Flask
 
 app = Flask(__name__)
 
-
 # Imports the Google Cloud client library
 import sys, os
 
