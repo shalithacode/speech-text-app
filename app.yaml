@@ -1,14 +1,1 @@
-runtime: python27
-threadsafe: true
-api_version: 1
-
-instance_class: F2
-
-env_variables:
-  BUCKET_NAME: "example-gcs-bucket"
-
-handlers:
-  # Matches requests to /images/... to files in static/images/...
-
-  - url: /.*
-    script: main.app
+runtime: python39
